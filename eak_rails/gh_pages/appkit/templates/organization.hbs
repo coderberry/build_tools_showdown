@@ -1,0 +1,19 @@
+<h3>{{name}}</h3>
+
+<div class="row">
+  <div class="col-sm-4">
+    <ul class="list-group">
+      {{#each member in model.members}}
+        <li class="list-group-item">
+          {{#link-to "organization.member" member}}
+            {{img-gravatar member.gravatar_id 30}}
+            {{member.login}}
+          {{/link-to}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-sm-8">
+    {{outlet}}
+  </div>
+</div>

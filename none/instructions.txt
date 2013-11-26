@@ -1,0 +1,4 @@
+git clone git@github.com:emberjs/starter-kit.git edu_apps
+cd edu_apps
+rm -rf .git
+python -m SimpleHTTPServer

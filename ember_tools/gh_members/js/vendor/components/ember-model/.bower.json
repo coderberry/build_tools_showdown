@@ -1,0 +1,27 @@
+{
+  "name": "ember-model",
+  "version": "0.0.10",
+  "main": "ember-model.js",
+  "dependencies": {
+    "ember": "~1.0.0-rc.5"
+  },
+  "devDependencies": {
+    "qunit": "~1.11"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "homepage": "https://github.com/ebryn/ember-model",
+  "_release": "0.0.10",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.10",
+    "commit": "2e58fb2ed2b4e05ff21e4d8236ebcbe7ff10a181"
+  },
+  "_source": "git://github.com/ebryn/ember-model.git",
+  "_target": "~0.0.10",
+  "_originalSource": "ember-model",
+  "_direct": true
+}

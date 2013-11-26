@@ -1,0 +1,20 @@
+{
+  "name": "gh_members",
+  "version": "0.0.0",
+  "authors": [
+    "Eric Berry <cavneb@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.0",
+    "ember-model": "~0.0.10",
+    "ember": "~1.2.0"
+  }
+}

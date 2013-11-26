@@ -1,0 +1,15 @@
+git clone git@github.com:stefanpenner/ember-app-kit.git gh_pages
+cd gh_pages
+rm -rf .git
+npm install
+npm install --save-dev loom loom-generators-ember
+grunt server
+
+generate controller application
+generate route organization
+generate template organization
+generate route organization/member
+generate template organization/member
+generate model organization
+generate model member
+generate helper img-gravatar

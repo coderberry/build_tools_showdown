@@ -1,0 +1,15 @@
+rails new gh_pages
+
+gem 'ember-appkit-rails', github: 'dockyard/ember-appkit-rails'
+bundle install
+
+rails g ember:bootstrap
+
+rails g ember:controller application
+rails g ember:route organization
+rails g ember:template organization
+rails g ember:route organization/member
+rails g ember:template organization/member
+rails g ember:model organization
+rails g ember:model member
+rails g ember:helper img-gravatar

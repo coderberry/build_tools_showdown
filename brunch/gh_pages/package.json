@@ -1,0 +1,42 @@
+{
+  "name": "yet-another-ember-brunch",
+  "description": "A Brunch skeleton for rapid Ember development. Including Ember install scripts, generators, and Ember.vim support.",
+  "author": {
+    "name": "Eric Berry",
+    "email": "@cavneb",
+    "url": "http://twitter.com/cavneb"
+  },
+  "version": "1.0.0",
+  "homepage": "https://github.com/cavneb/yet-another-ember-brunch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cavneb/yet-another-ember-brunch.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "cake server"
+  },
+  "dependencies": {
+    "brunch": "~1.7.10",
+    "coffee-script": "~1.6.3",
+    "javascript-brunch": "~1.7.0",
+    "coffee-script-brunch": "~1.7.2",
+    "css-brunch": "~1.7.0",
+    "uglify-js-brunch": "~1.7.2",
+    "clean-css-brunch": "~1.6.0",
+    "auto-reload-brunch": "~1.7.0",
+    "ember-handlebars-brunch": "~1.0.0",
+    "gzip-brunch": "~1.0.0",
+    "semver": "~2.2.1",
+    "adm-zip": "~0.4.3",
+    "less-brunch": "~1.7.0",
+    "bower": "~1.2.7"
+  },
+  "devDependencies": {
+    "qunitjs": "*",
+    "testem": "~0.5.8",
+    "loom-generators-ember-brunch": "~0.0.4"
+  }
+}

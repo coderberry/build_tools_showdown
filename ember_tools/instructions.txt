@@ -1,0 +1,10 @@
+npm install -g ember-tools
+ember create gh_members
+cd gh_members
+ember build —watch
+python -m SimpleHTTPServer
+open http://localhost:8000
+
+bower install lodash --save
+bower install ember-model --save
+bower install ember --save

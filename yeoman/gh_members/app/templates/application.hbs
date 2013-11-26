@@ -1,0 +1,12 @@
+<div class="container">
+  <h2 class="page-header">Github Organizations</h2>
+  <form {{action "viewOrganization" on="submit"}}>
+    <div class="input-group">
+      {{input type="text" value=organization class="form-control" placeholder="enter organization name"}}
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </form>
+  {{outlet}}
+</div>

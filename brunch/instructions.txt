@@ -1,0 +1,17 @@
+npm install -g brunch
+npm install -g bower
+brunch new gh:cavneb/yet-another-ember-brunch gh_pages
+cd gh_pages
+npm install
+bower install lodash --save
+cake ember:install
+cake ember-model:install
+
+generate controller application
+generate route organization
+generate template organization
+generate route organization/member
+generate template organization/member
+generate model organization
+generate model member
+generate helper img-gravatar
